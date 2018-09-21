@@ -42,5 +42,47 @@ a {
 
 .header ul li {
     color: black;
+    font-weight: bold;
     padding-right: 16px;
+}
+
+/* Banner */
+
+.banner-section {
+    display: flex;
+    background-color: #cccccc;
+    padding: 32px 24px;
+    width: 100%;
+}
+
+.banner-section img {
+    padding-right: 24px;
+    width: 60%;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    Justify-content: center;
+    width: 25%;
+    padding: 24px 32px;
+}
+
+.banner-text h2 {
+    color: #404040;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+
+.banner-text h3 {
+    color: #404040;
+    font-size: 1.5rem;
+}
+
+.banner-text p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #404040;
+    padding: 8px 0;
 }
