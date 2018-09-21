@@ -1,0 +1,46 @@
+/* Universal Styles */
+
+html {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.header h1 span {
+    color: grey;
+    font-weight: lighter;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.header ul li {
+    color: black;
+    padding-right: 16px;
+}
