@@ -141,9 +141,8 @@ a {
 }
 
 .side-info img {
-    height: auto;
+    height: 35%;
     width: 35%;
-
     padding: 16px 16px 16px 16px;
 }
 
@@ -170,4 +169,33 @@ a {
 }
 
 /* Courses Section */
+
+.courses-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.course-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 56px;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: auto;
+    max-width: 30%;
+    margin: 16px;
+}
+
+.course-text {
+    padding: 16px 16px 24px 16px;
+}
 
