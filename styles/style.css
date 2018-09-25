@@ -69,7 +69,7 @@ a {
     flex-direction: column;
     Justify-content: center;
     width: 40%;
-    padding: 32px 12px;
+    padding: 32px 0;
 }
 
 .banner-text h2 {
@@ -142,9 +142,8 @@ a {
 
 .side-info img {
     height: auto;
-    max-width: 35%;
-    max-height: 272px;
-    max-width: 272px;
+    width: 35%;
+
     padding: 16px 16px 16px 16px;
 }
 
