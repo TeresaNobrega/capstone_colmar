@@ -55,17 +55,21 @@ a {
     width: 100%;
 }
 
-.banner-section img {
-    padding-right: 24px;
+.banner-photo {
     width: 60%;
+    padding-right: 24px;
+}
+
+.banner-photo img {
+    width: 100%;
 }
 
 .banner-text {
     display: flex;
     flex-direction: column;
     Justify-content: center;
-    width: 25%;
-    padding: 24px 32px;
+    width: 40%;
+    padding: 32px 12px;
 }
 
 .banner-text h2 {
@@ -86,3 +90,85 @@ a {
     background-color: #404040;
     padding: 8px 0;
 }
+
+/* Presentation */
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    padding: 32px 24px;
+}
+
+.main-post {
+    width: 60%;
+    padding-right: 24px;
+}
+
+.main-post img {
+    width: 100%;
+}
+
+.main-post h3 {
+    color: #404040;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    padding: 32px 24px 24px 0;
+}
+
+.main-post p {
+    width: 75%; ;
+}
+
+.signature {
+    color: #404040;
+    font-size: 0.75rem;
+    padding: 32px 0;
+}
+
+.side-info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 16px 0 32px 0;
+}
+
+.side-info .box {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.side-info img {
+    height: auto;
+    max-width: 35%;
+    max-height: 272px;
+    max-width: 272px;
+    padding: 16px 16px 16px 16px;
+}
+
+.side-info .preview {
+    width: 65%;
+}
+
+#box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 16px 0 32px 0;
+    background-color: lightgrey;
+}
+
+.preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.preview .h4 {
+    padding: 8px 0;
+}
+
+/* Courses Section */
+
