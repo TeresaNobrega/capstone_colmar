@@ -61,6 +61,7 @@ a {
 }
 
 .banner-photo img {
+    height: auto;
     width: 100%;
 }
 
@@ -107,6 +108,7 @@ a {
 }
 
 .main-post img {
+    height: auto;
     width: 100%;
 }
 
@@ -118,7 +120,8 @@ a {
 }
 
 .main-post p {
-    width: 75%; ;
+    width: 95%;
+    text-align: justify;
 }
 
 .signature {
@@ -195,7 +198,89 @@ a {
     margin: 16px;
 }
 
+.course img {
+    height: auto;
+    width: 100%;
+}
+
 .course-text {
     padding: 16px 16px 24px 16px;
 }
 
+/* Thesis exhibit section */
+
+.thesis-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 32px 0 32px 24px;
+}
+
+.thesis-section h3 {
+    text-align: center;
+}
+
+.thesis-grid {
+    display: flex;
+    flex-direction: row;
+    padding-top: 32px;
+}
+
+.thesis-video  {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    padding: 0 24px;
+}
+
+.thesis-video video {
+    height: auto;
+    width: 100%;
+}
+
+.thesis-video h4 {
+    padding: 24px 0 8px 0;
+}
+
+.thesis-video p {
+    width: 95%;
+    text-align: justify;
+}
+
+.thesis-info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 24px;
+    padding-right: 20px;
+}
+
+.thesis-infobox {
+    display: flex;
+    flex-direction: row;
+}
+
+.thesis-infobox img{
+    height: 35%;
+    width: 35%;
+    padding: 16px 16px 16px 16px;
+}
+
+.thesis-infobox-text {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.thesis-infobox-grey {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+}
+
+.thesis-infobox-grey img {
+    height: 35%;
+    width: 35%;
+    padding: 16px 16px 16px 16px;
+}
