@@ -10,8 +10,6 @@ a {
     text-decoration: none;
 }
 
-
-
 /* Header */
 
 .header {
@@ -283,4 +281,25 @@ a {
     height: 35%;
     width: 35%;
     padding: 16px 16px 16px 16px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 16px 24px;
+    border-top: solid 1px lightgrey;
+}
+
+.terms-privacy {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.terms-privacy li {
+    padding-right: 10px;
 }
