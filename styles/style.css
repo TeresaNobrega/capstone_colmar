@@ -1,13 +1,35 @@
 /* Universal Styles */
 
 html {
-    font-family: arial, sans-serif;
-    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333333;
 }
 
 a {
-    color: black;
+    color:#333333;
+    font-weight: bolder;
     text-decoration: none;
+}
+
+a:hover { 
+    color: #01abaa;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+h4 {
+    font-size: 1.45rem;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: lighter;
 }
 
 /* Header */
@@ -29,7 +51,7 @@ a {
 }
 
 .header h1 span {
-    color: grey;
+    color: #01abaa;
     font-weight: lighter;
 }
 
@@ -47,11 +69,14 @@ a {
     padding-right: 16px;
 }
 
+
 /* Banner */
 
 .banner-section {
     display: flex;
-    background-color: #cccccc;
+    flex-direction: row;
+    align-items: center;
+    background-color: #e6e6e6;
     padding: 32px 24px;
     width: 100%;
 }
@@ -69,28 +94,39 @@ a {
 .banner-text {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-content: center;
     width: 40%;
-    padding: 32px 0;
+    padding: 32px 24px;
 }
 
 .banner-text h2 {
-    color: #404040;
-    font-size: 2.3rem;
+    font-size: 3rem;
     font-weight: bolder;
+    width: 80%;
 }
 
 .banner-text h3 {
-    color: #404040;
     font-size: 1.5rem;
+    width: 80%;
 }
 
 .banner-text p {
     display: flex;
     justify-content: center;
-    color: white;
-    background-color: #404040;
-    padding: 8px 0;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: #01abaa;
+    padding: 20px 0;
+    width: 70%;
+}
+
+.banner-text a { 
+    color: #ffffff;
+}
+
+.banner-text p:hover { 
+    background-color: #666666;
 }
 
 /* Presentation */
@@ -98,6 +134,7 @@ a {
 .presentation {
     display: flex;
     flex-direction: row;
+    align-items: center;
     height: auto;
     width: 100%;
     padding: 32px 24px;
@@ -115,7 +152,7 @@ a {
 
 .main-post h3 {
     color: #404040;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     padding: 32px 24px 24px 0;
 }
@@ -141,7 +178,8 @@ a {
 .box {
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: nowrap;
+    width: 100%;
 }
 
 .side-info .desktop {
@@ -154,12 +192,52 @@ a {
     width: 65%;
 }
 
-#box {
+#box-one {
     display: flex;
     flex-direction: row;
     width: 100%;
     padding: 16px 0 32px 0;
-    background-color: lightgrey;
+    background-color: #f2f2f2;
+}
+
+#box-two {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 16px 0 32px 0;
+    background-color: #e6e6e6;
+}
+
+#box-three {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 16px 0 32px 0;
+    background-color: #d9d9d9;
+}
+
+#box-one a {
+    color: #01abaa;
+}
+
+#box-two a {
+    color: #01abaa;
+}
+
+#box-three a {
+    color: #01abaa;
+}
+
+#box-one a:hover {
+    color: #333333;
+}
+
+#box-two a:hover {
+    color: #333333;
+}
+
+#box-three a:hover {
+    color: #333333;
 }
 
 .preview {
@@ -168,7 +246,8 @@ a {
     justify-content: center;
 }
 
-.preview .h4 {
+.preview h4 {
+    font-size: 1.5rem;
     padding: 8px 0;
 }
 
@@ -180,14 +259,15 @@ a {
     align-items: center;
     padding-top: 32px;
     width: 100%;
-    background-color: lightgrey;
+    padding: 32px 24px;
+    background-color: #e6e6e6;
 }
 
 .course-grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0 56px;
+    padding: 0 72px;
 }
 
 .course {
@@ -204,8 +284,23 @@ a {
     width: 100%;
 }
 
+.course:hover { 
+    background-color: #f2f2f2;
+}
+
 .course-text {
     padding: 16px 16px 24px 16px;
+}
+
+
+.course h5 {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    padding: 8px 0;
+}
+
+.course a:hover {
+    color: #333333;
 }
 
 /* Thesis exhibit section */
@@ -257,9 +352,15 @@ a {
     padding-right: 20px;
 }
 
-.thesis-infobox {
+.thesis-infobox a {
     display: flex;
     flex-direction: row;
+    width: 100%;
+}
+
+.thesis-infobox a:hover {
+    color: #333333;
+    background-color:#d9d9d9;
 }
 
 .thesis-infobox img{
@@ -277,7 +378,7 @@ a {
 .thesis-infobox-grey {
     display: flex;
     flex-direction: row;
-    background-color: lightgrey;
+    background-color: #d9d9d9;
 }
 
 .thesis-infobox-grey img {
@@ -360,10 +461,8 @@ a {
   
   .banner-text p {
       font-weight: bold;
-      width: 90%;
+      width: 80%;
       padding: 15px 0;
-      background-color: grey;
-      
   }
   
   /* Presentation*/
@@ -387,12 +486,16 @@ a {
       width: 100%;
   }
   
-  #box {
+  #box-one, #box-two, #box-three {
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
       width: 100%;
-      background-color: white;
+      background-color: #ffffff;
+  }
+  
+  #box-one, #box-two, #box-three a {
+      padding: 0;
   }
   
   .desktop {
@@ -406,27 +509,38 @@ a {
   }
   
   .preview {
+      margin: 0;
       padding-left: 32px;
+  }
+  
+  .preview h4 {
+      margin: 0;
   }
   
  /* Courses Section */ 
  
   .courses-section {
-      background-color: white;
+      padding: 0;
+      background-color: #ffffff;
   }
   
   .course-grid {
       display: flex;
       flex-direction: column;
       width: 100%;
+      padding: 0;
   }
   
   .course {
       width: 90%;
-      background-color: lightgrey;
+      background-color: #d9d9d9;
   }
   
-  .course-text p{
+  .course-text h5 {
+      display: none;
+    }
+  
+  .course-text p {
       display: none;
     }
   
@@ -454,10 +568,14 @@ a {
       padding: 0 ;
   }
   
-  .thesis-video h4, p {
+  .thesis-video h4  {
       display: none;
     }
     
+  .thesis-video p  {
+      display: none;
+    }    
+
   .thesis-info {
       display: none;
     }  
